@@ -1,0 +1,9 @@
+1- HTML Attribute -> disabled
+
+2- CSS Pseudo Class -> :active
+
+3- CSS Property -> outline
+
+3- CSS Pseudo Class -> :disabled
+
+4- CSS Value -> cursor: not-allowed;

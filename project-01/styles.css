@@ -41,6 +41,10 @@ header nav li {
   cursor: pointer;
 }
 
+header nav li:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 header .bars {
   display: none;
   align-items: center;
@@ -164,12 +168,12 @@ header .bars.active .bar:nth-child(3) {
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
-    top: 76px;
+    top: 78px;
     right: 0;
     width: 0%;
     padding-top: 4rem;
     height: calc(100vh - 76px);
-    background-color: darkcyan;
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 10;
     transition: width 0.5s;
     overflow: hidden;

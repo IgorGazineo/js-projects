@@ -186,7 +186,8 @@ nav a {
   letter-spacing: var(--spacing);
   margin-right: 1rem;
 }
-nav a:hover {
+nav a:hover,
+nav a.active {
   color: var(--clr-primary-5);
 }
 /*
